@@ -1,0 +1,316 @@
+#container{
+  width:100%;
+  height:100%;
+  margin:auto;
+  background-image:linear-gradient(white,whitesmoke,#bdc1c2);
+  background-size:auto;
+  background-repeat:round;
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:150px auto auto auto auto auto auto auto auto auto;
+  grid-template-areas: "header header"
+                       "lateral1 lateral1"
+                       "principal principal"
+                       "lateral2 lateral2"
+                       "contato contato"
+                       "funcionamento funcionamento"
+                       "mapa mapa"
+                       "duvidas duvidas"
+                       "formulario formulario"
+                       "footer footer"
+}
+
+.item{
+  font-family:gabriola;
+  font-size:18px;
+  text-align:center;
+}
+
+.header{
+  grid-area:header;
+  background-color:white;
+}
+
+.lateral1{
+  grid-area:lateral1;
+}
+
+.figura{
+  height:250px;
+  width:250px;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+.imagens1{
+  background-image:url(tomahawk.webp);
+  grid-area:imagens1;
+}
+
+.imagens2{
+   background-image:url(tbone.webp);
+   grid-area:imagens2;
+}
+
+.imagens3{
+  background-image:url(ancho.webp);
+  grid-area:imagens3;
+}
+
+.imagens4{
+  background-image:url(picanha.webp);
+  grid-area:imagens4;
+}
+
+.imagens5{
+  background-image:url(cabrito.webp);
+}
+
+.imagens6{
+   background-image:url(codorna.webp);
+}
+
+.imagens7{
+   background-image:url(cordeiro.webp);
+}
+
+.imagens8{
+   background-image:url(pato.webp);
+}
+
+.imagens9{
+   background-image:url(camarao.webp);
+}
+
+.imagens10{
+  background-image:url(bacalhau.webp);
+}
+
+.imagens11{
+   background-image:url(polvo.webp);
+}
+
+.imagens12{
+   background-image:url(salmao.webp);
+}
+
+.principal{
+  grid-area:principal;
+}
+
+.lateral2{
+  grid-area:lateral2;
+
+}
+
+.footer{
+grid-area:footer;
+  background-image:linear-gradient(gray,#c0c9c9,#c1d0d1);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.formulario{
+grid-area:formulario;
+
+}
+
+.duvidas{
+grid-area:duvidas;
+
+}
+
+.contato{
+  grid-area:contato;
+}
+
+.mapa{
+  grid-area:mapa;
+}
+
+.funcionamento{
+  grid-area:funcionamento;
+}
+#duvidas1{
+ font-weight:bold;
+  font-size:25px;
+}
+
+.perguntas{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.respostas{
+  font-size:18px;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+#cont{
+  font-weight:bold;
+    font-size:25px;
+}
+
+#loc{
+  font-weight:bold;
+    font-size:25px;
+}
+
+#func{
+  font-weight:bold;
+    font-size:25px;
+}
+
+hr{
+  box-shadow:2px 4px 5px #bec8ca,5px 9px 3px gray,0px 11px 2px #e4e9f1;
+	width:70%;
+	height:1px;
+	border:none
+}
+
+fieldset{
+  border-style:outside;
+  border-width:5px;
+  border-color:whitesmoke;
+  border-radius:25px;
+}
+
+#bt1{
+	box-shadow:2px 4px 5px #98b8bd,5px 9px 3px #a6b5bf;
+	color:#151414;
+	border:none;
+	padding:10px;
+	border-radius:20px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+#bt1:hover{
+  color:gray
+}
+
+legend{
+  font-weight:bold;
+    font-size:25px;
+}
+
+.fonte{
+  font-family:gabriola;
+  font-size:25px;
+}
+
+.txt1{
+  grid-area:txt1;
+}
+.txt2{
+  grid-area:txt2;
+}
+.txt3{
+  grid-area:txt3;
+}
+.txt4{
+  grid-area:txt4;
+}
+
+.txt5{
+  grid-area:txt5;
+}
+.txt6{
+  grid-area:txt6;
+}
+.txt7{
+  grid-area:txt7;
+}
+.txt8{
+  grid-area:txt8;
+}
+
+.txt9{
+  grid-area:txt9;
+}
+.txt10{
+  grid-area:txt10;
+}
+.txt11{
+  grid-area:txt11;
+}
+.txt12{
+  grid-area:txt12;
+}
+
+.img{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:auto auto auto auto auto;
+  grid-template-areas: "txt1 txt2"
+                       "imagens1 imagens2"
+                        "imagens3 imagens4"
+                        "txt3 txt4";
+  justify-content:center;
+  align-items:center;
+  column-gap:10px;
+  row-gap:10px;
+}
+
+
+.img2{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:auto auto auto auto auto;
+  grid-template-areas: "txt5 txt6"
+                       "imagens5 imagens6"
+                        "imagens7 imagens88"
+                        "txt7 txt8";
+  justify-content:center;
+  align-items:center;
+  column-gap:10px;
+  row-gap:10px;
+}
+
+
+.img3{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto;
+  grid-template-rows:auto auto auto auto auto auto;
+  grid-template-areas: "txt9 txt10"
+                       "imagens9 imagens10"
+                        "imagens11 imagens12"
+                        "txt11 txt12";
+  justify-content:center;
+  align-items:center;
+  column-gap:10px;
+  row-gap:10px;
+}
+
+
+
+
+
+.erro{
+  border: 1px solid red;
+}
+
+.hide{
+  display: none;
+}
+
+.alerta{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 8px;
+  text-align: center;
+  padding: 6px 4px;
+}
