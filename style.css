@@ -1,0 +1,557 @@
+#container{
+  height:100vh;
+  width:100%;
+  background-size:auto;
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  grid-template-rows:100px auto auto auto auto auto auto auto auto auto;
+  grid-template-areas: "header header header header"
+                       "lateral1 lateral1 lateral1 lateral1"
+                       "principal principal principal principal"
+                       "lateral2 lateral2 lateral2  lateral2"
+                       "contato contato funcionamento funcionamento"
+                       "mapa mapa mapa mapa"
+                      "quem quem quem quem"
+                       ". duvidas duvidas ."
+                       "formulario formulario churras churras "
+                       "footer footer footer footer"
+}
+
+.item{
+  font-family:gabriola;
+  font-size:24px;
+  text-align:center;
+  font-weight:550;
+}
+
+
+.lateral1{
+  grid-area:lateral1;
+}
+
+.figura{
+  height:350px;
+  width:350px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  border-radius: 30px;
+}
+
+.imagens1{
+  background-image:url(tomahawk.webp);
+  grid-area:imagens1;
+}
+
+.imagens2{
+   background-image:url(tbone.webp);
+   grid-area:imagens2;
+}
+
+.imagens3{
+  background-image:url(ancho.webp);
+  grid-area:imagens3;
+}
+
+.imagens4{
+  background-image:url(picanha.webp);
+  grid-area:imagens4;
+}
+
+.imagens5{
+  background-image:url(cabrito.webp);
+}
+
+.imagens6{
+   background-image:url(alcatra.webp);
+}
+
+.imagens7{
+   background-image:url(cabrito.webp);
+}
+
+.imagens8{
+   background-image:url(codorna.webp);
+}
+
+.imagens9{
+   background-image:url(cordeiro.webp);
+}
+
+.imagens10{
+  background-image:url(pato.webp);
+}
+
+.imagens11{
+   background-image:url(costelinha.webp);
+}
+
+.imagens12{
+   background-image:url(javali.webp);
+}
+.imagens13{
+   background-image:url(camarao.webp);
+}
+.imagens14{
+   background-image:url(bacalhau.webp);
+}
+
+.imagens15{
+   background-image:url(polvo.webp);
+}
+.imagens16{
+   background-image:url(salmao.webp);
+}
+.imagens17{
+   background-image:url(Bolinho.webp);
+}
+.imagens18{
+   background-image:url(vieiras.webp);
+}
+.principal{
+  grid-area:principal;
+}
+
+.lateral2{
+  grid-area:lateral2;
+
+}
+
+.footer{
+grid-area:footer;
+  background-image:linear-gradient(gray,#c0c9c9,#c1d0d1);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.formulario{
+grid-area:formulario;
+
+}
+
+.accordion{
+grid-area:duvidas;
+
+}
+
+.contato{
+  grid-area:contato;
+}
+
+.mapa{
+  grid-area:mapa;
+}
+
+.funcionamento{
+  grid-area:funcionamento;
+}
+
+
+.perguntas{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.respostas{
+  font-size:26px;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+
+hr{
+  box-shadow:2px 4px 5px #bec8ca,5px 9px 3px gray,0px 11px 2px #e4e9f1;
+	width:90%;
+	height:1px;
+	border:none
+}
+
+fieldset{
+  border-style:outside;
+  border-width:5px;
+  border-color:#d8e4e4;
+  border-radius:20px;
+  width:450px;
+  align-items: center;
+  justify-content:center;
+  text-align:center;
+  display:inline-block;
+}
+
+#bt1{
+	box-shadow:2px 4px 5px #98b8bd,5px 9px 3px #a6b5bf;
+	color:#151414;
+	border:none;
+	padding:10px;
+	border-radius:20px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+  font-size:25px;
+}
+
+#bt1:hover{
+  color:gray
+}
+
+legend{
+  font-weight:bold;
+    font-size:40px;
+  color:black;
+}
+
+
+#txt1{
+  grid-area:txt1;
+}
+#txt2{
+  grid-area:txt2;
+}
+#txt3{
+  grid-area:txt3;
+}
+#txt4{
+  grid-area:txt4;
+}
+
+#txt5{
+  grid-area:txt5;
+}
+#txt6{
+  grid-area:txt6;
+}
+#txt7{
+  grid-area:txt7;
+}
+#txt8{
+  grid-area:txt8;
+}
+
+#txt9{
+  grid-area:txt9;
+}
+#txt10{
+  grid-area:txt10;
+}
+#txt11{
+  grid-area:txt11;
+}
+#txt12{
+  grid-area:txt12;
+}
+#txt13{
+  grid-area:txt13;
+}
+#txt14{
+  grid-area:txt14;
+}
+#txt15{
+  grid-area:txt15;
+}
+#txt16{
+  grid-area:txt16;
+}
+
+#txt17{
+  grid-area:txt17;
+}
+#txt18{
+  grid-area:txt18;
+}
+
+.img{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-template-rows:auto auto auto auto;
+  grid-template-areas: "txt1 txt2 txt3"
+                       "imagens1 imagens2 imagens3"
+                        "imagens4 imagens5 imagens6"
+                        "txt4 txt5 txt6"
+                        ;
+  justify-content:center;
+  align-items:center;
+  column-gap:50px;
+  row-gap:40px;
+}
+
+
+.img2{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-template-rows:auto auto auto auto;
+  grid-template-areas: "txt7 txt8 txt9"
+                       "imagens7 imagens8 imagens9"
+                        "imagens10 imagens11 imagens12"
+                        "txt10 txt11 txt12";
+  justify-content:center;
+  align-items:center;
+  column-gap:50px;
+  row-gap:40px;
+}
+
+
+.img3{
+  margin:auto;
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-template-rows:auto auto auto auto;
+  grid-template-areas: "txt13 txt14 txt15"
+                       "imagens13 imagens14 imagens15"
+                        "imagens16 imagens17 imagens18"
+                        "txt16 txt17 txt18";
+  justify-content:center;
+  align-items:center;
+  column-gap:50px;
+  row-gap:40px;
+}
+
+.imagem_what1{
+  width:33px;
+  height:30px;
+  display:inline;
+  border-radius:15px;
+  padding-right:10px;
+}
+
+
+.imagem_what2{
+  width:50px;
+  height:45px;
+  display:inline;
+  border-radius:15px;
+  padding-right:10px;
+}
+
+.header{
+  padding:9px 20px;
+  text-align:center;
+  background-color:#eee;
+  overflow:hidden;
+  grid-area:header;
+}
+
+.header a{
+    text-decoration:none;
+    color:black;
+    font-family:gabriola;
+    font-size:24px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.header a:hover{
+    background-color:#eee;
+    color:rgba(0, 76, 18, 0.327);
+}
+
+
+.Subtitulo{
+  font-size:40px;
+  color:black;
+  font-weight:bold;
+}
+
+.texto{
+  background-color:#c4cfd4;
+  border-radius:10px;
+}
+
+.churras{
+  grid-area:churras;
+  display:flex;
+  align-items:center;
+}
+
+.logo{
+  grid-area:logo;
+}
+
+.nav{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.somos{
+  grid-area:quem;
+  background-image:url(acougueiro.png),url(quem.png);
+  background-position-x:6rem,right;
+  background-position-y: center,center;
+  background-repeat:no-repeat,no-repeat;
+  background-size:22%,35%;
+}
+
+
+#churrinho{
+  border:2px;
+  border-radius: 50px;
+}
+
+#duvidasf{
+  font-size:40px;
+  color:black;
+  font-weight:bold;
+}
+
+
+#sel{
+  font-size:20px;
+}
+
+
+label {
+  display:inline-block;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.custom-select {
+  position: relative;
+    width:400px
+}
+
+.opcao-selec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width:380px;
+  height:10px;
+}
+
+.seta-baixo {
+  margin-left: 50px;
+  transition: transform 0.4s;
+}
+
+.seta-baixo::after {
+  content: '';
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+}
+
+.opcoes {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: max-height 0.3s ease-out;
+}
+
+.opcoes li {
+  padding: 1px;
+  cursor: pointer;
+}
+
+.opcoes li:hover {
+  background-color:#ccc;
+}
+
+.aberto2 {
+  max-height: 200px; 
+}
+
+.rotate {
+  transform: rotate(-180deg);
+}
+
+
+
+
+
+
+
+.accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-grupo {
+  border: 1px solid #9db0c8;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.accordion-titulo{
+  margin: 0;
+}
+
+.accordion-seta {
+  width: 10px;
+  height: 10px;
+  border: solid #343537;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transition: transform 0.3s;
+  transform: rotate(45deg); 
+}
+
+.accordion-conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s;
+}
+
+.aberto .accordion-header {
+  background-color: #9ab6cb; 
+}
+
+.aberto .accordion-seta {
+  transform: rotate(-135deg);
+  background-color: #9ab6cb; 
+}
+
+
+
+
+
+.radio-button {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 80%;
+  border: 1px solid #b0b0b0;
+  margin-right: 8px;
+  position: relative;
+  top: 2px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.radio-button.rbSelec {
+  background-color: #00b7db;
+}
